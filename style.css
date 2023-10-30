@@ -237,6 +237,13 @@ body{
     object-fit: cover;
 }
 
+.galley__images1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding-bottom: 33px;
+}
 
 .gallery__images img{
     width: 100%;
@@ -249,14 +256,25 @@ body{
 }
 
 
-.gallery__images{
+.galley__images2{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+
+/* 
+.gallery__images{
+    /* display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 33px;
     justify-content: center;
     
-}
+} */
+
+
 .rom-long{
     grid-row: 2/4;
     
