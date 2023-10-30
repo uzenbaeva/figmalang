@@ -10,7 +10,7 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden~~;
+    overflow-x: hidden;
 }
 
 *{
@@ -154,10 +154,7 @@ body{
     flex-shrink: 0;
 }
 
-/* .gradient{
-    position: relative;
-    top: -400px;
-} */
+
 
 .features{
    display: flex;
@@ -277,17 +274,19 @@ body{
 }
 
 
+.gallery__content-btn{
+    display: flex;
+    justify-content: center;
+}
+
 .gallery-button{
     padding: 10px 30px;
-    justify-content: center;
     border: 1px solid#fff;
     color: #fff;
     font-size: 17px;
     background: none;
     letter-spacing: 0.2px;
     margin-top: 50px;
-    display: flex;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -331,6 +330,12 @@ body{
     gap: 75px;
 }
 
+.partners__content-button{
+    display: flex;
+    justify-content: center;
+
+}
+
 .partners__content-btn{
     padding: 10px 30px;
     border: 1px solid#fff;
@@ -339,9 +344,8 @@ body{
     background: none;
     letter-spacing: 0.2px;
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .footer{
